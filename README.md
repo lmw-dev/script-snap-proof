@@ -4,7 +4,7 @@ Proof page: representative examples of Script Snap output from real technical vi
 
 ## The Problem
 
-Auto-generated transcripts mispronounce, merge, and hallucinate technical terms.
+Auto-generated transcripts misrecognize, merge, or mislabel technical terms.
 
 "claw dot m d" instead of `claude.md`. "cloud code" instead of Claude Code. "wasmon" instead of WozMon.
 

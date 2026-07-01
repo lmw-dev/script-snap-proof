@@ -1,6 +1,6 @@
 # Case Study: Claude Code Tutorial
 
-Detailed verification of Script Snap processing on AI coding agent workflows.
+Example output review of Script Snap processing on AI coding agent workflows.
 
 ---
 
@@ -13,17 +13,17 @@ Detailed verification of Script Snap processing on AI coding agent workflows.
 
 ## 2. Generic Transcript Limitations
 
-A generic automatic speech recognition (ASR) engine processing this audio produces:
+A generic transcript-style output can produce:
 - A continuous block of unsegmented text with no paragraphs or formatting.
 - Undecorated shell commands and file configurations mixed into paragraphs.
-- Zero navigation timestamps or structured chapters.
+- No reliable chapter structure or structured chapters.
 - Phonetic mishearings of developer tools and configuration files.
 
 ---
 
 ## 3. Terminology Correction Log
 
-Script Snap identified and fixed the following phonetic anomalies:
+Script Snap flagged and corrected in this sample the following phonetic anomalies:
 
 | Raw ASR Text | Corrected Entity | Context / Explanation |
 |---|---|---|
@@ -36,7 +36,7 @@ Script Snap identified and fixed the following phonetic anomalies:
 
 ## 4. Engineering Impact: Why It Matters
 
-In automation, precision is binary:
+Small naming errors can be costly:
 - **Zero-Utility Configs**: A file named `claw dot m d` fails to load. The CLI agent will start every session in an amnesiac state, ignoring custom styling or linters.
 - **Broken Pipelines**: Automation workflows built on `n eight n` fail to execute. Copy-pasting commands containing spelling errors halts developer setup.
 - **Platform Credibility**: Misspelled developer tools alienate technical readers immediately.
@@ -46,14 +46,14 @@ In automation, precision is binary:
 ## 5. Extracted Structured Outputs
 
 ### A. Organized Article Excerpt
-> Most developers treat Claude Code like a standard chatbot. It is a file-reading agent managing external state. If you are not leveraging **Plan Mode** and the **Model Context Protocol (MCP)**, you lose productivity.
+> Most developers treat Claude Code like a standard chatbot. It is a file-reading agent managing external state. If you are not leveraging **Plan Mode** and the **Model Context Protocol (MCP)**, you can make the output harder to reuse.
 > 
 > 1. **Calibrating Effort** — Manage token expenditure using the `/effort` command.
 > 2. **Plan Mode** — Research architecture before writing code.
 > 3. **claude.md** — Establish persistent workspace rules.
 > 4. **Vercel Integration** — Execute serverless deployment directly from CLI.
 
-### B. Extracted CLI Commands
+### B. Representative extracted CLI commands
 
 | Command | Purpose |
 |---|---|

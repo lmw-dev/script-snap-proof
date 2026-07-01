@@ -1,6 +1,6 @@
 # Case Study: Ben Eater — Building a 6502 Computer
 
-Detailed verification of Script Snap processing on low-level assembly and hardware compilation toolchains.
+Example output review of Script Snap processing on low-level assembly and hardware compilation toolchains.
 
 ---
 
@@ -13,17 +13,17 @@ Detailed verification of Script Snap processing on low-level assembly and hardwa
 
 ## 2. Generic Transcript Limitations
 
-A generic automatic speech recognition (ASR) engine processing this audio produces:
+A generic transcript-style output can produce:
 - Flat blocks of text lacking paragraph breaks.
 - Raw assembly instructions and linker settings inline without syntax highlighting.
 - Severe phonetic mishearings of historical retro-computing systems and assembly directives.
-- Zero structured references to register operations or physical pin configurations.
+- Few structured references to register operations or physical pin configurations.
 
 ---
 
 ## 3. Terminology Correction Log
 
-Script Snap identified and resolved the following phonetic anomalies:
+Script Snap flagged and corrected in this sample the following phonetic anomalies:
 
 | Raw ASR Text | Corrected Entity | Context / Explanation |
 |---|---|---|
@@ -40,7 +40,7 @@ Script Snap identified and resolved the following phonetic anomalies:
 When programming close to the metal, documentation accuracy is critical:
 - **Obscured References**: Referencing `wasmon` prevents developers from discovering WozMon resources, breaking historical and technical context.
 - **Undefined Directives**: Attempting to compile `dot org` halts the assembler. Modern linkers require the correct `.org` syntax or segment configs.
-- **Brittle Architecture**: In linker configs, layout segments must align with physical address lines. Transcription errors in address values will crash the system immediately upon booting.
+- **Brittle Architecture**: In linker configs, layout segments must align with physical address lines. Transcription errors in address values can break the expected behavior upon booting.
 
 ---
 
@@ -72,7 +72,7 @@ SEGMENTS {
 }
 ```
 
-### C. Abracted BIOS Segment Interface
+### C. Representative extracted assembly snippets
 Extracted ACIA serial port communication subroutines:
 
 ```asm
