@@ -85,9 +85,9 @@ The goal is to show what Script Snap actually produces — no simulated results,
 
 ## What This Is Not
 
-- Not a product page. No pricing. No waitlist. No "Analyze Your First Video" CTA.
-- Not a competitor comparison. No tool rankings. No "best transcription" claims.
-- Not a guarantee. No "100% accuracy." No "zero hallucinations."
+- Not a product page. No pricing. No waitlist. No sales Call-to-Action.
+- Not a competitor comparison. No tool rankings or claims of market superiority.
+- Not a guarantee. We do not claim perfect accuracy or hallucination-free output.
 
 Script Snap is a tool for extracting structured content from technical videos. It works well on domain-specific vocabulary. It is not perfect. The examples on this page are real outputs, representative of actual processing.
 
