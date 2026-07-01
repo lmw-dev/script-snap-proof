@@ -47,6 +47,8 @@ Same video, same transcript line. Three tools, different results.
 
 This video has dense, domain-specific vocabulary. Generic transcription tools produced multiple errors per paragraph. Script Snap caught and corrected them.
 
+* 👉 [View the full structured output and technical correction report](examples/ben-eater-6502.md)
+
 ## Example 2: Claude Code Tutorial — Beginner to Advanced in 20 Minutes
 
 **Input:** ~19min YouTube tutorial (AI coding workflow)
@@ -66,6 +68,8 @@ This video has dense, domain-specific vocabulary. Generic transcription tools pr
 | n eight n | `n8n` | Workflow automation platform |
 | cloud desktop | Claude Desktop | Anthropic's desktop client |
 | versell | Vercel | Deployment hosting platform |
+
+* 👉 [View the full structured output and technical correction report](examples/claude-code-tutorial.md)
 
 ## What Script Snap Produces
 
@@ -87,7 +91,7 @@ The goal is to show what Script Snap actually produces — no simulated results,
 
 - Not a product page. No pricing. No waitlist. No sales Call-to-Action.
 - Not a competitor comparison. No tool rankings or claims of market superiority.
-- Not a guarantee. We do not claim perfect accuracy or hallucination-free output.
+- Not a guarantee. We do not claim perfect accuracy or error-free outputs.
 
 Script Snap is a tool for extracting structured content from technical videos. It works well on domain-specific vocabulary. It is not perfect. The examples on this page are real outputs, representative of actual processing.
 
